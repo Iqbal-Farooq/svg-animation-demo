@@ -25,3 +25,155 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.modul-section {
+  padding-right: 46.5px !important;
+  margin-right: auto !important;
+  padding-left: 46.5px !important;
+  max-width: 1024px !important;
+  margin-left: auto !important;
+  padding-bottom: 0rem !important;
+  justify-content: flex-start !important;
+}
+
+.firstsectionvisible {
+  margin-top: 5rem !important;
+}
+
+.m-wrapper {
+  padding-left: 0px !important;
+  margin-top: -10rem !important;
+}
+
+.m-subwrapper {
+  width: 930px !important;
+  justify-content: space-between;
+}
+
+.qb-banner-img {
+  top: 0% !important;
+}
+
+.modul-head {
+  font-size: 70px !important;
+  line-height: 53px !important;
+  font-family: 'RealText-hairline' !important;
+}
+
+.firstclass-qb {
+  gap: 4rem !important;
+}
+
+.qb-banner {
+  display: hidden !important;
+  gap: 1.25rem !important;
+}
+
+.svg-circle {
+  height: 439px !important;
+  width: 439px !important;
+  margin-top: -2.5px !important;
+}
+
+.modul-subhead {
+  font-size: 28px !important;
+  margin-bottom: 0rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0.25rem !important;
+
+  font-family: 'RealText-Black' !important;
+}
+
+.modul-para1,
+.modul-para2 {
+  font-size: 16px !important;
+  line-height: 23px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 334px !important;
+}
+
+.m-para1 {
+  font-size: 16px !important;
+  line-height: 23px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 392px !important;
+  display: block !important;
+
+}
+
+.m-para-2 {
+  font-size: 16px !important;
+  line-height: 23px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 340px !important;
+  display: block !important;
+
+}
+
+.m-para2 {
+  display: none !important
+}
+
+.modulo-ul-list {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  list-style-type: disc !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 370px !important;
+  margin-left: 1rem !important;
+
+
+}
+
+.m-para1-subhead,
+.m-para2-subhead {
+  font-family: 'Montserrat-Semibold' !important;
+  color: #666666 !important
+}
+
+.m-3rd-head {
+  font-family: 'RealText-Black' !important;
+  font-size: 21px !important;
+
+
+}
+
+.m-3rd-ul-list,
+.m-3rd-li-p {
+  font-size: 13.11px !important;
+  line-height: 18.73px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 245px !important;
+}
+
+.m-3rd-para1 {
+
+
+  font-size: 14.99px !important;
+  line-height: 21.5px !important;
+  font-family: 'Montserrat-Light' !important;
+  width: 236px !important;
+}
+
+.m-3rd-li-p {
+  margin-left: 1rem !important;
+
+}
+
+.m-3rd-li-p {
+  padding-top: 0.6rem !important;
+  margin-left: 1rem !important;
+
+
+}
+
+.Modularitet-class {
+  margin-top: -1rem !important;
+}
+
+.m-3rd-ul-list {
+  list-style-type: decimal !important;
+}

@@ -3,6 +3,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Banner from '@/components/banner/page';
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function Home() {
@@ -54,6 +55,8 @@ export default function Home() {
     { scope: sectionRef }
   );
   return (
+    <>
+   
     <section className="h-[200vh] flex flex-col justify-center items-center w-full">
       <div className="h-[100vh] text-[30px] py-5">Scroll Down to draw an svg</div>
       <div ref={sectionRef} className=" h-[100vh] ">
@@ -75,5 +78,11 @@ export default function Home() {
         </svg>
       </div>
     </section>
+      <div className='flex justify-center items-center'>
+        <div className='pb-[1000px]'>
+          <Banner />
+        </div>
+      </div>
+    </>
   );
 }
