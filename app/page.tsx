@@ -7,8 +7,8 @@ import Banner from '@/components/banner/page';
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export default function Home() {
-  const sectionRef = useRef<HTMLDivElement | null>(null);
-  const circleReferenced = useRef<SVGCircleElement | null>(null);
+  const sectionRef = useRef(null);
+  const circleReferenced = useRef(null);
   const centerTransformOrigin = 'center center';
   const circleLength = 2 * Math.PI * 49;
 
@@ -59,7 +59,7 @@ export default function Home() {
    
     <section className="h-[200vh] flex flex-col justify-center items-center w-full">
       <div className="h-[100vh] text-[30px] py-5">Scroll Down to draw an svg</div>
-      <div ref={sectionRef} className=" h-[100vh] ">
+      <div ref={sectionRef} className=" h-[100vh] pb-[500px] ">
         <svg
           viewBox="0 0 100 100"
           width="300px"

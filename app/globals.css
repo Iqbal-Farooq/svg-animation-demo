@@ -137,8 +137,6 @@ body {
 .m-3rd-head {
   font-family: 'RealText-Black' !important;
   font-size: 21px !important;
-
-
 }
 
 .m-3rd-ul-list,
@@ -150,8 +148,6 @@ body {
 }
 
 .m-3rd-para1 {
-
-
   font-size: 14.99px !important;
   line-height: 21.5px !important;
   font-family: 'Montserrat-Light' !important;
@@ -160,20 +156,15 @@ body {
 
 .m-3rd-li-p {
   margin-left: 1rem !important;
-
 }
 
 .m-3rd-li-p {
   padding-top: 0.6rem !important;
   margin-left: 1rem !important;
-
-
 }
-
 .Modularitet-class {
   margin-top: -1rem !important;
 }
-
 .m-3rd-ul-list {
   list-style-type: decimal !important;
 }

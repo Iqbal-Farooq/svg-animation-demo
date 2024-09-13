@@ -367,9 +367,7 @@ const Banner = () => {
           </div>
         </div>
       </section>
-      <section className="xl-max-w-[1024px] xl4:max-width-[1280px] xs:mx-[25px] md:mx-[36px] lg:mx-[46px] xl:mx-[98.5px] xl4:mx-auto xl4:max-w-[1366px] xl4:px-[94px] xl5:mx-auto xl5:max-w-[1653px] xl5:px-[20px] ">
-        <hr className="dividor-styles-cumulus h-px border bg-[#DFDFDF] xs:mt-[900px] xs:mb-[90px] sm:mt-[750px] sm:mb-[90px] md:mt-[650px] md:mb-[90px] lg:mt-[280px] lg:mb-[119px] xl:mt-[0px] xl:mb-[119px] custom:my-[116px] custom:!mt-[250px] xl4:mb-[128px]  xl4:mt-[43px]  xl5:mt-[0rem]" />
-      </section>
+     
     </>
   )
 }
